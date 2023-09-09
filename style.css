@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,300&display=swap');
 
 /* general styles */
 
@@ -57,7 +58,7 @@ header .content {
 
 header .logo {
 	color: #f9faf8;
-	font-size: 48px;
+	font-size: 24px;
 	margin: 0;
 	padding: 0;
 	font-weight: 1000;
@@ -75,4 +76,121 @@ header ul a {
 	text-decoration: none;
 	color: #e5e7eb;
 	font-size: 18px;
+}
+
+/* hero styles */
+
+.hero .content {
+	margin: 24px 0;
+	height: min-content;
+}
+
+.hero-text, .hero-img {
+	width: 50%;
+	height: 230px;
+}
+
+.hero-main-text {
+	font-size: 48px;
+	font-weight: 900;
+}
+
+.hero-second-text {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.hero-img {
+	display: flex;
+	background-color: #6d747d;
+	align-items: center;
+	justify-content: center;
+}
+
+button.sign-up {
+	background-color: #3882f6;
+	margin: 8px 0;
+	padding: 8px 32px;
+	color: inherit;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+}
+
+/* info styles */
+
+.info .content {
+	flex-flow: row wrap;
+	margin-bottom: 64px;
+	gap: 0 32px;
+}
+
+.info h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 900;
+	color: #1f2937;
+}
+
+.card .item {
+	width: 125px;
+	height: 125px;
+	border: 3px solid #3882f6;
+	border-radius: 10px;
+	margin-bottom: 8px;
+}
+
+.card {
+	width: 125px;
+	text-align: center;
+	font-size: 13px;
+}
+
+/* quote styles */
+
+.container.quote {
+	background-color: #e5e7eb;
+}
+
+.quote .content {
+	flex-direction: column;
+	padding: 64px;
+	color: #1f2937;
+}
+
+.quote .quote-txt {
+	font-size: 36px;
+	font-weight: light;
+	font-style: italic;
+	padding: 16px 32px;
+}
+
+.quote .quote-author {
+	width: 100%;
+	text-align: right;
+	padding: 0 64px;
+	font-weight: bold;
+}
+
+.cta {
+	max-width: 800px;
+	width: 100%;
+	background-color: #3882f6;
+	color: #fff;
+	border-radius: 5px;
+	margin: 64px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 32px 80px;
+}
+
+.cta-title {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.cta button.sign-up {
+	border: 2px solid #fff;
 }
